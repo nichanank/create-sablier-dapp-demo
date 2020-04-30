@@ -117,7 +117,7 @@ function App() {
           <p>Stop Time: {stream.stopTime}</p>
           <button class="withdraw-button" onClick={async() => {
             const sablier = new ethers.Contract(addresses[chainId].sablier, abis.sablier, getProviderOrSigner(library, account))
-            const withdrawTx = await sablier.withdraw(stream.id); 
+            const withdrawTx = await sablier.withdraw(stream.id, stream.deposit); 
             await withdrawTx.wait();
           }}>
             Withdraw from Stream
