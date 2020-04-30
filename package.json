@@ -19,5 +19,8 @@
     "packages": [
       "packages/*"
     ]
+  },
+  "dependencies": {
+    "@web3-react/core": "^6.0.9"
   }
 }

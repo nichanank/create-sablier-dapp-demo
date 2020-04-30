@@ -9,17 +9,100 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: white;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color:darkblue;
 }
 
 .App-link {
   color: #61dafb;
   margin-top: 10px;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+p {
+  font-size: small;
+}
+
+.wallet-info {
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: row;
+  width: 20vw;
+}
+
+.input {
+  height: 30px;
+  width: 250px;
+  margin-top: 5%;
+  color: black;
+  /* background-color: green; */
+}
+
+.datetime-input-container {
+  font-size: 1rem;
+  color: black;
+  margin-top: 2%;
+  /* background-color: green; */
+}
+
+.button-row {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5%;
+  font-size: 12rem;
+}
+
+.stream-button {
+  background-color: lightgreen;
+  color: black;
+  margin-top: 10%;
+  width: 7rem;
+  font-size: 1.2rem;
+}
+
+.streams-lists-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 70vw;
+  height: 20vh; 
+}
+
+.streams-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.withdraw-button {
+  background-color: green;
+  color: white;
+  margin-bottom: 5%;
+}
+
+.cancel-button {
+  background-color: cadetblue;
+  color: white;
+  margin-bottom: 5%;
 }
